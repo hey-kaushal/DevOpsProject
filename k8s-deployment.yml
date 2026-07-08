@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: simple-webapp-deployment
+  namespace: simple-webapp
 spec:
   replicas: 2
   selector:
@@ -14,7 +15,7 @@ spec:
     spec:
       containers:
       - name: simple-webapp
-        image: simple-webapp:latest
+        image: kaushalx21/simple-webapp:1
         ports:
         - containerPort: 8080
 ---
@@ -22,6 +23,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: simple-webapp-service
+  namespace: simple-webapp
 spec:
   type: NodePort
   selector:
