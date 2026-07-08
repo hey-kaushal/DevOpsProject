@@ -1,5 +1,5 @@
 # DevOpsProject
-Creating a project that integrates Ansible, Jenkins, Docker Desktop, Minikube, Maven, and Apache Tomcat involves several steps. Below is a detailed guide to set up a CI/CD pipeline using these tools.
+Creating a project that integrates Ansible, Jenkins, Docker Desktop, Minikube, Maven, and Apache Tomcat involves several steps. Below is a detailed guide to set up a CI/CD pipeline using these tools. can i edit
 
 ### Prerequisites
 1. **Install Ansible**: Follow the installation instructions from the [Ansible documentation](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html).
