@@ -135,4 +135,8 @@ pipeline {
             archiveArtifacts artifacts: 'trivy-fs-report.html,snyk-report.json', fingerprint: true
         }
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 9503c60ab1c362825478ed78ff60c369436fc75c
